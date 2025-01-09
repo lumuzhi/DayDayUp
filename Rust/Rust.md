@@ -40,3 +40,13 @@
 
 ## 所有权与借用
 
+#### string类型
+
+> let s = "linwanrong"	// 字符串字面值 类型为&str，而动态字符串类型：String
+
+可以使用下面的方法基于字符串字面量来创建 `String` 类型：
+
+```rust
+let s = String::from("hello");
+```
+
